@@ -12,6 +12,7 @@ const prompt = promptSync()
 // let logSize: number
 const logWeight = 20
 const maxTruckWeight = 1100
+
 const inputString = prompt('Enter log length (0.25, 0.5, or 1) (M): ')
 const logLenght = parseFloat(inputString)
 const totalWeight = logLenght * logWeight
